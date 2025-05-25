@@ -36,12 +36,12 @@
     </div>
 
     <footer class="py-3 text-white   text-center clr">
-        <p>Web-Teknolojileri-Projesi Nurcan Ahmet 2024</p>
+        <p>Web-Teknolojileri-Projesi Rojda 2025</p>
         <p>
-            <a href="https://github.com/Nurcanahmet" class="Link"><i class="fab fa-github" id="icon1"></i>
+            <a href="https://github.com" class="Link"><i class="fab fa-github" id="icon1"></i>
                 Github</a>
-            <a href="https://www.instagram.com/nurcan.ahmeed/?utm_source=ig_web_button_share_sheet" class="Link"><i class="fa-brands fa-instagram" id="icon1"></i>İnstagram</a>
-            <a href="https://www.linkedin.com/in/nurcan-a-14b2a22a7/" class="Link"><i class="fa-brands fa-linkedin" id="icon1"></i>Linkedin</a>
+            <a href="https://www.instagram.com" class="Link"><i class="fa-brands fa-instagram" id="icon1"></i>İnstagram</a>
+            <a href="https://www.linkedin." class="Link"><i class="fa-brands fa-linkedin" id="icon1"></i>Linkedin</a>
         </p>
     </footer>
 

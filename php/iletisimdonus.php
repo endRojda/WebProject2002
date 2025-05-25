@@ -19,7 +19,7 @@
     <!--Menu Kismi-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand " href=index.html>Nurcan Ahmet</a>
+            <a class="navbar-brand " href=index.html>ROJblog.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +35,7 @@
                         <a class="nav-link" href="Sehrim.html">Şehrim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Takimim.html">Mardinspor</a>
+                        <a class="nav-link" href="Takimim.html">Takımım</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Ilgialanlarim.html">İlgi Alanlarım</a>

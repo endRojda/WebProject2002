@@ -29,7 +29,7 @@ h4 {
 
 #OzgecmisCv {
     position: relative;
-    background-color: rgba(160, 13, 113, 0.473);
+    background-color: rgba(240, 217, 218, 0.749);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ h4 {
     width: 100%;
     max-width: 1150px;
     min-height: 1000px;
-    background-color: #ffffff;
+    background-color: #faf6f6;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 35px rgba(0, 0, 0, 1);
@@ -49,13 +49,13 @@ h4 {
 
 .container_cv .left_Side {
     position: relative;
-    background-color: hwb(311 59% 5%);
+    background-color: hwb(82 87% 5%);
     padding: 40px;
 }
 
 .container_cv .right_Side {
     position: relative;
-    background-color: hwb(311 59% 5%);
+    background-color: hwb(119 82% 2%);
     padding: 40px;
 
 }
@@ -66,7 +66,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(244, 239, 239);
+    border-bottom: 1px solid rgb(252, 249, 249);
 
 }
 
@@ -92,7 +92,7 @@ h4 {
 }
 
 .ProfilYazisi h2 {
-    color: #fff;
+    color: #574ea9;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -102,7 +102,7 @@ h4 {
 }
 
 .ProfilYazisi h2 span {
-    color: #fff;
+    color: #120345;
     font-size: 0.8em;
     font-weight: 300;
 }
@@ -112,7 +112,7 @@ h4 {
 }
 
 .iletisimtext {
-    color: #fff;
+    color: hsl(0, 100%, 4%);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -138,12 +138,12 @@ h4 {
 }
 
 .iletisimbilgileri ul li span {
-    color: #fff;
+    color: #020000;
     font-weight: 300;
 }
 
 .egitimtext {
-    color: #fff;
+    color: #070000;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -156,17 +156,17 @@ h4 {
 }
 
 .egitimbilgileri h5 {
-    color: white;
+    color: rgb(19, 2, 32);
     font-weight: 500;
 }
 
 .egitimbilgileri h4 {
-    color: #fff;
+    color: #120101;
     font-weight: 300;
 }
 
 .egitimbilgileri h6 {
-    color: #fff;
+    color: #28086c;
     font-weight: 200;
     text-align: center;
 }
@@ -176,7 +176,7 @@ h4 {
 }
 
 .diltext {
-    color: #fff;
+    color: #0a0101;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -184,7 +184,7 @@ h4 {
 }
 
 .dilbilgileri .text {
-    color: #fff;
+    color: #140101;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -224,14 +224,14 @@ h4 {
 .yetenekler .box h4 {
     text-align: left;
     text-transform: uppercase;
-    color: #fff;
+    color: #0e0000;
     font-weight: 600;
 }
 
 .yetenekler .box .percent {
     position: relative;
     width: 100%;
-    height: 10px;
+    height: 6px;
     background-color:#000;
 }
 
@@ -269,7 +269,7 @@ h4 {
 }
 
 .sehrimbody {
-    background-color: rgba(149, 247, 178, 0.473);
+    background-color: rgba(201, 229, 201, 0.473);
 }
 
 .urfaBaslik {
@@ -289,7 +289,7 @@ h4 {
 }
 
 #takimimbody {
-    background-color: rgba(149, 247, 178, 0.473);
+    background-color: rgba(217, 245, 225, 0.473);
 }
 
 .img-fluid {

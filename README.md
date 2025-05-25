@@ -1,8 +1,6 @@
-# My_Web_Project
+WEBPROJECT
 
-![b65ee69d78c39c8aae397a70f2648307](https://github.com/user-attachments/assets/4d8b3e06-c323-4c8e-9ccb-71a70d790e5f)
-
- Web Teknolojileri projesi
+https://github.com/endRojda/WebProject2002.git
 
  PROJE AMACI:
 
