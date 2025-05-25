@@ -1,41 +1,128 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hakkımda</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ana Sayfa</title>
+
+    <!-- Bootstrap ve ikonlar -->
+    <link rel="stylesheet" href="boostrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1922f4bd30.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            padding-top: 70px;
+        }
+
+        .card {
+            height: 700px; /* Kart yüksekliği sabit */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img-top {
+            height: 380px; /* Görsel yüksekliği sabit */
+            object-fit: cover;
+        }
+
+        .card-body {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .card-text {
+            overflow: auto;
+        }
+    </style>
 </head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Benim Sitem</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Hakkımda</a></li>
-          <li class="nav-item"><a class="nav-link" href="cv.html">Özgeçmiş</a></li>
-          <li class="nav-item"><a class="nav-link" href="sehrim.html">Şehrim</a></li>
-          <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
-          <li class="nav-item"><a class="nav-link" href="ilgi-alanlarim.html">İlgi Alanlarım</a></li>
-          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <div class="container mt-5">
-    <h1>Merhaba, ben [Adınız]</h1>
-    <p>Hobilerim: Kitap okumak, yüzmek, kod yazmak.</p>
-    <p>Etkinlikler: Gönüllü çalışmalar, üniversite kulüpleri.</p>
-    <img src="assets/hobi.jpg" alt="Hobi" class="img-fluid">
-  </div>
+<body id="anasayfa1">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ROJblog.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Anasayfa/Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="OzgecmisCv.html">Özgeçmiş/CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Sehrim.html">Şehrim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Takimim.html">Takım</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Ilgialanlarim.html">İlgi Alanlarım</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Iletisim.html">İletişim</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link text-white">Giriş Sayfası <i
+                                class="fas fa-sign-in-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="p-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/hakkimdaa.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">HAKKIMDA</h4>
+                            <p class="card-text">
+                                Merhaba ben Rojda! <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, tempore iure. Voluptatibus unde esse, vitae nisi, ea asperiores officia perspiciatis voluptas illo expedita eius minima, velit modi suscipit quam! Porro. Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ducimus nisi distinctio nostrum fugiat neque, eligendi quis magni dolore non. Illum, exercitationem? Placeat praesentium nisi odio modi suscipit ipsa, quis quidem quisquam, sed deleniti dicta explicabo aliquam tempore facere minima ducimus doloribus earum soluta non rem mollitia magnam. Autem, totam!, dolor sit amet consectetur adipisicing elit. Laborum et placeat natus, asperiores nulla omnis blanditiis, necessitatibus expedita id, minima sequi. Sed dicta error quaerat ad officia animi impedit et ea. Aut, non itaque. Nam voluptatem, reprehenderit commodi voluptate blanditiis hic incidunt non, tempore, eum perspiciatis eaque? Numquam, doloribus quam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/dun.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">DÜN</h4>
+                            <p class="card-text">
+                                Bu kısımda geçmişim... <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus est, eos aliquid dolorum itaque sunt eum adipisci consequatur debitis commodi, error illo expedita in quae porro totam beatae et provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsa placeat natus totam, quae asperiores dolorem voluptate id facilis est at atque earum, explicabo vel et laboriosam rerum suscipit iste, ducimus aliquid eaque vero. Dignissimos rerum ducimus voluptatem perspiciatis excepturi magni quaerat provident officiis, impedit quo quia aut, praesentium alias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aut accusamus dolores voluptate veniam magnam dignissimos enim hic nulla, quis ab minus quae tempore temporibus exercitationem quidem quod mollitia ipsam doloremque at minima cupiditate. Error, facere rem. Deserunt reprehenderit labore, recusandae delectus repellat facilis, fuga culpa corporis nihil magnam maxime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/bugun.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">BUGÜN</h4>
+                            <p class="card-text">
+                                Bugün yani şimdi neler yaptığımdan bahsediyorum... <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, iure maxime, repellendus ducimus, itaque accusantium aliquam placeat consequuntur suscipit repudiandae numquam iusto! Fuga commodi recusandae tempore earum, temporibus modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, assumenda? Sunt natus ab quod explicabo in dolorem dolore dignissimos sit corporis optio exercitationem reprehenderit doloremque officiis aperiam quisquam, laudantium nam id excepturi praesentium ut dicta enim voluptas. Quas magni aut voluptatum, nesciunt assumenda cum accusantium labore rem ipsam corporis odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque dolorum exercitationem pariatur eligendi dolor necessitatibus dolore dolorem sunt eius ullam consequuntur consequatur tempora aliquam corrupti suscipit velit, ad molestiae hic quae, eum nihil dignissimos dicta. Voluptates aliquam est dicta nostrum, explicabo commodi! Dolorum dolores quasi accusantium. Totam, beatae nemo!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/yarin.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">YARIN</h4>
+                            <p class="card-text">
+                                Hayallerim ve hedeflerim <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere incidunt nostrum vero omnis eligendi exercitationem? Ipsum, provident rerum sequi minima quibusdam accusamus porro voluptatum. Sit vitae nostrum dignissimos sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi nobis alias mollitia. Adipisci accusamus non tenetur amet totam, obcaecati ipsum? Atque aperiam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi vel ipsam recusandae quos, in blanditiis maxime eveniet excepturi accusantium nam, non aut soluta at modi labore animi esse veniam vitae neque. Consequuntur cum quos enim, reprehenderit beatae, veritatis voluptatem expedita corporis, maxime ab aut ipsum explicabo possimus sequi fugit! quidem amet quos dolor maxime quibusdam illo nesciunt eaque et, cum vero sit explicabo corporis, ex saepe dolore consequatur! Laborum quo consectetur quam minus earum molestiae magnam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS (isteğe bağlı) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYkLMKK3VpZf5lZLc2RlDiJTFK/7CkTNTylKTO9" crossorigin="anonymous">
+    </script>
+
 </body>
 </html>
- 

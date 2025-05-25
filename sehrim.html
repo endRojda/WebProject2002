@@ -1,66 +1,220 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Şehrim</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="boostrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1922f4bd30.js" crossorigin="anonymous"></script>
+<style>
+        body {
+            padding-top: 70px;
+        }
+
+        .card {
+            height: 700px; /* Kart yüksekliği sabit */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img-top {
+            height: 350px; /* Görsel yüksekliği sabit */
+            object-fit: cover;
+        }
+
+        .card-body {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .card-text {
+            overflow: auto;
+        }
+    </style>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Benim Sitem</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Hakkımda</a></li>
-          <li class="nav-item"><a class="nav-link" href="cv.html">Özgeçmiş</a></li>
-          <li class="nav-item"><a class="nav-link active" href="sehrim.html">Şehrim</a></li>
-          <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
-          <li class="nav-item"><a class="nav-link" href="ilgi-alanlarim.html">İlgi Alanlarım</a></li>
-          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
-        </ul>
-      </div>
+
+<body class="sehrimbody">
+
+    <!--Menu Kismi-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html">ROJblog.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Anasayfa/Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="OzgecmisCv.html">Özgeçmiş/CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Sehrim.html">Şehrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Takimim.html">Takım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ilgialanlarim.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link active  text-white">Giriş Sayfası
+                            <i class="fas fa-sign-in-alt"></i>
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Menu kismi-->
+
+    <!--Slider Sehir-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://tr.wikipedia.org/wiki/Bal%C4%B1kl%C4%B1g%C3%B6l#:~:text=Tarihsel%20ve%20bilimsel%20verilere%20g%C3%B6re,bir%20tarihte%20yap%C4%B1ld%C4%B1%C4%9F%C4%B1%20tahmin%20edilmektedir."><img src="fotolar/balikligol.jpg"
+                        class="d-block w-100 resimSlider" title="balıklı göl" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://tr.wikipedia.org/wiki/Kubbe_ev"><img src="fotolar/harranevleri.jpg"
+                        class="d-block w-100 resimSlider" title="Harran evleri" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://tr.wikipedia.org/wiki/G%C3%B6beklitepe"><img src="fotolar/gobeklitepe.webp"
+                        class="d-block w-100 resimSlider" title="göbekli tepe" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://tr.wikipedia.org/wiki/Halfeti"><img src="fotolar/halfeti.jpg"
+                        class="d-block w-100 resimSlider" title="halfeti" alt="...">
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </nav>
+    <!--Slider Sehir-->
 
-  <div class="container mt-5">
-    <h1>Şehrim</h1>
-    <p>Nüfus: [Nüfus bilgisi]</p>
-    <p>Gezilecek Yerler: [Bilgiler]</p>
+    <div>
+        <h3 class="">URFA</h3>
+        <p class="urfaBaslik">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quia neque nemo dicta pariatur perferendis consequuntur ipsam at earum nulla, culpa inventore minus laborum eveniet ipsa ducimus similique quo optio! Omnis veniam consequuntur corrupti repellendus eveniet vitae culpa mollitia impedit doloremque vel recusandae, reprehenderit maxime voluptatem. Dicta labore iusto quasi alias veniam commodi dolorum, id praesentium rerum nemo debitis distinctio voluptates officiis deserunt consequatur quam aperiam laboriosam eligendi voluptatem. Ex voluptatem, delectus accusamus omnis ratione perspiciatis, tempora praesentium placeat aspernatur, dolor esse non culpa porro perferendis sequi at vitae molestias. Nam, soluta? Optio eius voluptates obcaecati sapiente error quae aliquam!
 
-    <div id="sehirSlider" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="#yer1"><img src="assets/sehir1.jpg" class="d-block w-100" alt="Yer 1"></a>
+            
+        </p>
+        <h3 class="">GEZİLECEK YERLER</h3>
+        <p class="urfa_tanitim">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio commodi officia corrupti doloribus esse quasi dignissimos ut. Dolor sequi, corporis aperiam ratione perferendis neque sed cumque dolorum consequuntur odit, maxime nihil perspiciatis doloremque itaque! Iure facere explicabo tempora! Similique dolores veritatis corrupti, accusantium reiciendis aperiam nihil iusto iure odit consequuntur dicta maxime. At reprehenderit perspiciatis pariatur! Nesciunt iure, assumenda explicabo eum perferendis totam voluptatibus? Aliquid cumque asperiores explicabo velit unde!
+        </p>
+        <section class="p-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/balikligol.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">BALIKLI GÖL</h4>
+                            <p class="card-text">
+                                Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ducimus nisi distinctio nostrum fugiat neque, eligendi quis magni dolore non. Illum, exercitationem? Placeat praesentium nisi odio modi suscipit ipsa, quis quidem quisquam, sed deleniti dicta explicabo aliquam tempore facere minima ducimus doloribus earum soluta non rem mollitia magnam. Autem, totam!, dolor sit amet consectetur adipisicing elit. Laborum et placeat natus, asperiores nulla omnis blanditiis, necessitatibus expedita id, minima sequi. Sed dicta error quaerat ad officia animi impedit et ea. Aut, non itaque. Nam voluptatem, reprehenderit commodi voluptate blanditiis hic incidunt non, tempore, eum perspiciatis eaque? Numquam, doloribus quam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/gobeklitepe.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">GÖBEKLİ TEPE</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsa placeat natus totam, quae asperiores dolorem voluptate id facilis est at atque earum, explicabo vel et laboriosam rerum suscipit iste, ducimus aliquid eaque vero. Dignissimos rerum ducimus voluptatem perspiciatis excepturi magni quaerat provident officiis, impedit quo quia aut, praesentium alias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aut accusamus dolores voluptate veniam magnam dignissimos enim hic nulla, quis ab minus quae tempore temporibus exercitationem quidem quod mollitia ipsam doloremque at minima cupiditate. Error, facere rem. Deserunt reprehenderit labore, recusandae delectus repellat facilis, fuga culpa corporis nihil magnam maxime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/halfeti.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">HALFETİ</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, assumenda? Sunt natus ab quod explicabo in dolorem dolore dignissimos sit corporis optio exercitationem reprehenderit doloremque officiis aperiam quisquam, laudantium nam id excepturi praesentium ut dicta enim voluptas. Quas magni aut voluptatum, nesciunt assumenda cum accusantium labore rem ipsam corporis odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque dolorum exercitationem pariatur eligendi dolor necessitatibus dolore dolorem sunt eius ullam consequuntur consequatur tempora aliquam corrupti suscipit velit, ad molestiae hic quae, eum nihil dignissimos dicta. Voluptates aliquam est dicta nostrum, explicabo commodi! Dolorum dolores quasi accusantium. Totam, beatae nemo!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="fotolar/harranevleri.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">HARRAN EVLERİ</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi nobis alias mollitia. Adipisci accusamus non tenetur amet totam, obcaecati ipsum? Atque aperiam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi vel ipsam recusandae quos, in blanditiis maxime eveniet excepturi accusantium nam, non aut soluta at modi labore animi esse veniam vitae neque. Consequuntur cum quos enim, reprehenderit beatae, veritatis voluptatem expedita corporis, maxime ab aut ipsum explicabo possimus sequi fugit! quidem amet quos dolor maxime quibusdam illo nesciunt eaque et, cum vero sit explicabo corporis, ex saepe dolore consequatur! Laborum quo consectetur quam minus earum molestiae magnam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-          <a href="#yer2"><img src="assets/sehir2.jpg" class="d-block w-100" alt="Yer 2"></a>
-        </div>
-        <div class="carousel-item">
-          <a href="#yer3"><img src="assets/sehir3.jpg" class="d-block w-100" alt="Yer 3"></a>
-        </div>
-        <div class="carousel-item">
-          <a href="#yer4"><img src="assets/sehir4.jpg" class="d-block w-100" alt="Yer 4"></a>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#sehirSlider" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#sehirSlider" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
+    </section>
 
-    <section id="yer1"><h2>Yer 1</h2><p>İçerik 1</p></section>
-    <section id="yer2"><h2>Yer 2</h2><p>İçerik 2</p></section>
-    <section id="yer3"><h2>Yer 3</h2><p>İçerik 3</p></section>
-    <section id="yer4"><h2>Yer 4</h2><p>İçerik 4</p></section>
-  </div>
+    <!-- Bootstrap JS (isteğe bağlı) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYkLMKK3VpZf5lZLc2RlDiJTFK/7CkTNTylKTO9" crossorigin="anonymous">
+    </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
+        crossorigin="anonymous"></script>
+    <script src="boostrap.js"></script>
+
+</body>
+
 </html>

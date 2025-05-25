@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#iletisimbody {
+  background: url(../img/ILetisimmmPage.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#iletisimbaslik,
+#iconn,
+.form-label,
+.form-check-label {
+  color: white;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.form-control::placeholder {
+  color: #c5f6d9;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+}
+
+#footeryazi {
+  color: black;
+}
+
+#icon1 {
+  margin-right: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.Link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover #icon1 {
+  color: #88eda3;
+}

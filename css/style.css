@@ -1,0 +1,344 @@
+#anasayfa1 {
+    background-color: rgba(108, 235, 140, 0.473);
+}
+
+footer {
+    height: auto;
+    background-color: rgb(123, 251, 132);
+}
+
+#icon1 {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+.card-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.resimSlider {
+    height: 700px;
+}
+
+h4 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+#OzgecmisCv {
+    position: relative;
+    background-color: rgba(160, 13, 113, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container_cv {
+    position: relative;
+    width: 100%;
+    max-width: 1150px;
+    min-height: 1000px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 1);
+}
+
+.container_cv .left_Side {
+    position: relative;
+    background-color: hwb(311 59% 5%);
+    padding: 40px;
+}
+
+.container_cv .right_Side {
+    position: relative;
+    background-color: hwb(311 59% 5%);
+    padding: 40px;
+
+}
+
+.ProfilYazisi {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(244, 239, 239);
+
+}
+
+.ProfilYazisi .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+.ProfilYazisi .imgbx img {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProfilYazisi h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.ProfilYazisi h2 span {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.iletisimbilgileri {
+    padding-top: 2%;
+}
+
+.iletisimtext {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+.iletisimbilgileri ul {
+    position: relative;
+
+}
+
+.iletisimbilgileri ul li {
+    list-style: none;
+    margin: 2% 0;
+    cursor: pointer;
+}
+
+.iletisimbilgileri ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(113, 142, 246);
+}
+
+.iletisimbilgileri ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.egitimtext {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+.egitimbilgileri li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.egitimbilgileri h5 {
+    color: white;
+    font-weight: 500;
+}
+
+.egitimbilgileri h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.egitimbilgileri h6 {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+}
+
+.dilbilgileri li {
+    list-style: none;
+}
+
+.diltext {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+.dilbilgileri .text {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+.dilbilgileri .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 2%;
+}
+
+.dilbilgileri .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.title2 {
+    margin-top: 6%;
+}
+
+.yetenekler .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: left;
+    align-items: center;
+}
+
+.yetenekler .box h4 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.yetenekler .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color:#000;
+}
+
+.yetenekler .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(250, 248, 247);
+}
+
+.ilgiAlanlari ul {
+    display: grid;
+}
+
+.ilgiAlanlari ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 2% 0;
+}
+
+.ilgiAlanlari ul li i {
+    color: rgb(84, 125, 239);
+    font-size: 20px;
+    width: 20px;
+    margin-right: 3%;
+}
+
+@media(max-width:1000px) {
+    .container_cv {
+        margin: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.sehrimbody {
+    background-color: rgba(149, 247, 178, 0.473);
+}
+
+.urfaBaslik {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.urfa_tanitim {
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: justify;
+}
+
+.card.h-100 {
+    margin: 4%;
+}
+
+#takimimbody {
+    background-color: rgba(149, 247, 178, 0.473);
+}
+
+.img-fluid {
+    padding-top: 5%;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#urfasporbaslik {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.takimYazi {
+    color: black;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: justify;
+}
+
+#urfasporslider {
+    padding: 3%;
+}
+
+#ilgialanbody {
+    background-color: rgba(149, 247, 178, 0.473);
+}
+
+#col-ia {
+    padding: 1%;
+    width: 45%;
+    margin-left: 3%;
+}
+
+.searchBox {
+    margin-left: 3%;
+}
+
+.card-title {
+    padding: 2%;
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.input-group-text {
+    display: inline-block;
+}
